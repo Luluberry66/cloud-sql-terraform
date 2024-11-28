@@ -39,7 +39,7 @@ This Terraform configuration creates a Google Cloud SQL database instance using 
    Edit `terraform.tfvars` and set the following variables:
 
    - `project_id`: Your Google Cloud project ID.
-   - `region`: Desired region (e.g., `us-central1`).
+   - `region`: Desired region (e.g., `us-west1`).
    - `instance_name`: Name for your Cloud SQL instance.
    - `database_name`: Name of the database to create.
    - `db_user`: Database username.
